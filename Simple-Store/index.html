@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <script src="store.js" defer></script>
+    <title>Simple Store</title>
+  </head>
+  <body>
+    <h1>Simple Store</h1>
+    <div id = "inventory_table">
+    </div>
+    <label for = "item">Item</label>
+    <input type = "text" name = "item" id = "item">
+    <label for = "quantity">Qty</label>
+    <input type =" text" name = "quantity" id = "quantity">
+    <button type = "button" name = "add_item" id = "add_item" onclick = "addItem()">Add Item</button>
+    <button type = "button" name = "reset" id = "reset" onclick = "reset()">New Order</button>
+    <div id = "ordertotal">
+    <h2 id = "invoice">Invoice Total ($):</h2>
+    </div>
+    <textarea id = "name" rows="8" cols="80"></textarea>
+  </body>
+</html>
